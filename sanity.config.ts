@@ -4,7 +4,7 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
-  name: 'default',
+  name: 'Beauty Cosmetics',
   title: 'beauty-ecommerce',
   basePath: '/admin/sanity',
   projectId: 'qoxzzxih',
