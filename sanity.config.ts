@@ -6,7 +6,7 @@ import {schemaTypes} from './schemas'
 export default defineConfig({
   name: 'default',
   title: 'beauty-ecommerce',
-
+  basePath: '/admin/sanity',
   projectId: 'qoxzzxih',
   dataset: 'production',
 
