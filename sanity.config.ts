@@ -4,11 +4,11 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 
 export default defineConfig({
-  name: 'Beauty Cosmetics',
-  title: 'beauty-ecommerce',
+  name: 'beauty-ecommerce',
+  title: 'Beauty Cosmetics',
   basePath: '/admin/sanity',
-  projectId: 'qoxzzxih',
-  dataset: 'production',
+  projectId: process.env.SANITY_STUDIO_PROJECT_ID!,
+  dataset: process.env.SANITY_STUDIO_DATASET!,
 
   plugins: [deskTool(), visionTool()],
 
